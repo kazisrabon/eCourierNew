@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) Prokash Sarkar 2015. Contact, prokashsarkar@outlook.com.
+  -->
+<resources>
+
+    <color name="colorPrimary">#2ca614</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryLight">#CFD8DC</color>
+    <color name="colorAccent">#343434</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="windowBackground">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="cloud_white">#ededed</color>
+    <color name="signature_pad">#E0E0E0</color>
+
+    <color name="list_row_default_bg">#444444</color>
+    <color name="list_row_pressed_bg">#242424</color>
+    <color name="list_row_selected_bg">#242424</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="transparent_white">#ccffffff</color>
+    <color name="half_transparent_black">#80000000</color>
+    <color name="half_transparent_white">#80FFFFFF</color>
+    <color name="full_transparent_white">#00FFFFFF</color>
+    <color name="full_transparent_black">#00000000</color>
+
+    <color name="list_divider">#BDBDBD</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#2ca614</color>
+    <color name="list_row_hover_end_color">#2ca614</color>
+
+    <color name="status">#666666</color>
+    <color name="sub_status">#888888</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">@color/white</color>
+    <color name="dot_dark_screen2">@color/white</color>
+    <color name="dot_dark_screen3">@color/white</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">@color/colorPrimaryDark</color>
+    <color name="dot_light_screen2">@color/colorPrimaryDark</color>
+    <color name="dot_light_screen3">@color/colorPrimaryDark</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+</resources>
